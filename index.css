@@ -1,0 +1,155 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-wrapper {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+}
+
+.header, .footer {
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.subtitle, .contact {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.form-container {
+  margin-top: 2rem;
+}
+
+.form-title h2 {
+  margin-bottom: 0;
+}
+
+.form-title p {
+  margin-top: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.section {
+  margin-top: 2rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.section-indicator.amber {
+  background-color: #fbbf24;
+}
+
+.section-indicator.red {
+  background-color: #ef4444;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.form-group input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.flex-group {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.add-button, .remove-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-button {
+  color: #d97706;
+  margin-top: 4px;
+}
+
+.remove-button {
+  color: #dc2626;
+}
+
+.warning {
+  background-color: #fef3c7;
+  border: 1px solid #f59e0b;
+  padding: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.warning-icon {
+  width: 24px;
+  height: 24px;
+  color: #f59e0b;
+}
+
+.button-container {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.submit-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.75rem 1.5rem;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+}
