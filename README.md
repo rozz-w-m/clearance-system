@@ -4,7 +4,7 @@ This project is a web-based **Student Clearance Form Generator** built with **Re
 
 -NOTE: No backend intergrated
 
-## Project: ST CLARE'S GIRLS SECONDARY SCHOOL - Clearance Form System
+## Project: Clearance Form System
 
 This app provides an easy-to-use interface for entering:
 - Student information
